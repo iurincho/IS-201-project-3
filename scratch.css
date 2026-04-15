@@ -1,0 +1,125 @@
+body {
+    background: linear-gradient(to bottom, #ffe4ec, #fff0f5);
+    font-family: -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+    color: #1c1c1e;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.header {
+    background: linear-gradient(to right, #ff4d6d, #ff85a1);
+    color: white;
+    text-align: center;
+    padding: 35px;
+}
+
+.header h1 {
+    color: white;
+}
+
+.header p {
+    color: white;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 600;
+}
+
+/* 🎧 Music Player Bar */
+.player {
+    background: #ffffff;
+    margin: 20px auto;
+    padding: 15px 20px;
+    max-width: 600px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(255, 77, 109, 0.2);
+}
+
+.player:hover {
+    transform: scale(1.03);
+    transition: 0.2s;
+}
+
+.song-info {
+    color: #1c1c1e;
+    font-size: 16px;
+}
+
+.song-info span {
+    color: #8e8e93;
+    font-size: 14px;
+}
+
+.controls {
+    font-size: 22px;
+    color: #ff4d6d;
+}
+
+/* Sections */
+.section {
+    background-color: #ffffff;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 20px;
+    max-width: 800px;
+    box-shadow: 0 6px 18px rgba(255, 77, 109, 0.2);
+    transition: transform 0.2s ease;
+}
+
+.section:hover {
+    transform: translateY(-5px);
+}
+
+.section:nth-child(even) {
+    background-color: #fff5f8;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 25px;
+    color: #ff4d6d;
+}
+
+/* Headings */
+h1, h2 {
+    font-family: -apple-system, BlinkMacSystemFont, Arial;
+    color: #ff4d6d;
+}
+
+/* Text */
+p, li {
+    line-height: 1.6;
+    font-size: 17px;
+    color: #3a3a3c;
+}
+
+/* Image */
+img {
+    border-radius: 20px;
+    border: 4px solid #ff85a1;
+    margin-top: 15px;
+}
+
+/* Video */
+iframe {
+    max-width: 100%;
+    border-radius: 12px;
+}
+
+/* Lists */
+ol, ul {
+    padding-left: 25px;
+}
+
+/* Hover */
+a:hover {
+    opacity: 0.8;
+}
